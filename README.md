@@ -6,6 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## What is Needed and How To Start on VS Code
+
+### Downloads
+
+You will need Node.js
+
+### How to Start the Project?
+
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
