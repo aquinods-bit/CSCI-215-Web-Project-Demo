@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  background-color: #660000;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+.flying-button {
+  position: absolute;
+  left: 0;              
+  top: 50%;            
+  transform: translateY(-50%); 
+
+  position: absolute;
+  background-color: #bfa87c;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+
+  animation: flyAcross 10s linear infinite;
+}
+
+@keyframes flyAcross {
+  0% {
+    transform: translate(-200px, -50%);
+  }
+  100% {
+    transform: translate(110vw, -50%);
+  }
+}
+
+.glow-title {
+  transition: 0.3s;
+}
+
+.glow-title:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #bfa87c;
 }
