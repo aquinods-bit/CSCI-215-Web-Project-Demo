@@ -14,7 +14,11 @@ You will need Node.js
 
 ### How to Start the Project?
 
-
+1. Download and unzip this file in a location you're familiar with.
+2. Open VS Code, and then open the folder.
+3. Open New Terminal
+4. When Terminal is open, run "cd CSCI-215-Web-Project-Demo-master" or "cd *To whatever the folder name is holding all the files* "
+5. When the directory is changed, run "npm start," and this will open up the website. Note: It may take a little bit of time to load.
 
 ### `npm start`
 
